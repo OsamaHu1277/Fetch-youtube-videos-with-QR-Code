@@ -19,6 +19,7 @@ h1 {
     top: 20%
 }
 iframe {
+    border: none;
     width: 949px;
     height: 534px;
 }
@@ -43,11 +44,16 @@ iframe {
 
 @media screen and (max-width: 960px) {
     iframe {
-        width: 450px;
-        height: 237px;
+        width: 400px;
+        height: 210px;
+        padding-bottom: 10px;
+    }
+    #logo {
+        width:40%;
+        margin-bottom: 30px;
     }
     #qrcode {
-        display: inline;
+        display: block;
     }
     #qrcode img {
         display: block;

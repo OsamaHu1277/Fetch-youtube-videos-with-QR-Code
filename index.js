@@ -16,6 +16,7 @@ app.get("/", (request, response) => {
     response.sendFile(__dirname + "/main.html");
 });
 
+
 //HTML QR PAGE
 app.get('/html', function (request, response) {
     response.sendFile(__dirname + "/pages/html.html")
