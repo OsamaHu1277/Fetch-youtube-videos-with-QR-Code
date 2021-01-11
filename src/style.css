@@ -1,0 +1,57 @@
+body {
+    background-color: #1e417d;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+#qrcode {
+    margin-top: 5%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 20%
+}
+iframe {
+    width: 949px;
+    height: 534px;
+}
+#qrcode img {
+    padding: 30px;
+}
+
+#qrcode div {
+    color: #fff;
+    font-weight: bold;
+}
+
+#footer {
+    color: #fff;
+    font-weight: bold;
+    margin-top: 7%;
+}
+
+#logo {
+    width: 15%;
+}
+
+@media screen and (max-width: 960px) {
+    iframe {
+        width: 450px;
+        height: 237px;
+    }
+    #qrcode {
+        display: inline;
+    }
+    #qrcode img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
